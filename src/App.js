@@ -77,6 +77,7 @@ class App extends Component {
     e.preventDefault();
     let input = e.target.elements.search.value;
     input.trim();
+    e.target.elements.search.value = "";
     if (!input) {
       return;
     }
@@ -99,7 +100,8 @@ class App extends Component {
         data: [],
         cards: [],
         page: 1,
-        sort: input
+        sort: input,
+        name: ""
       },
       this.load
     );

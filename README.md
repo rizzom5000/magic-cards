@@ -3,6 +3,11 @@
 A simple React app that was designed to display and search for cards in are responsive, infinitely scrolling CSS grid.
 This version was designed to display Magic the Gathering cards, but could be easily modified to display any type of card that includes a header, image and metadata.
 
+## To run locally
+1. npm install
+2. set your base uri as an environment variable
+3. npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
