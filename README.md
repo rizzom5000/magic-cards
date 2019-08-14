@@ -1,6 +1,6 @@
 # Magic Creature Cards
 
-A simple React app that was designed to display and search for cards in are responsive, infinitely scrolling CSS grid.
+A simple React app that was designed to display and search for cards in a responsive, infinitely scrolling CSS grid.
 This version was designed to display Magic the Gathering cards, but could be easily modified to display any type of card that includes a header, image and metadata.
 
 ## To run locally
